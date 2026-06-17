@@ -99,6 +99,10 @@ Direct URL link string to the updated target cone graphic image
 ### Example Widget
 
 This widget will give a list of current storms:
+
+* Go to your Home Assistant Dashboard, click the three dots in the top right, and select Edit Dashboard.Click 
+* Add Card in the bottom right.
+* Search for Markdown, select it, and paste the following tracking code into the card editor box:
 ```
 type: markdown
 title: "🌀 NHC Hurricane Tracking Matrix"
@@ -215,6 +219,8 @@ Since I am located on the eastern US, I watch the Atlantic storms. I have the fo
         name: Storm
 ```
 This will show a pill when a storm is active, like right now ;)
+
+* * *
 
 ### Tuning Polling Frequencies
 
