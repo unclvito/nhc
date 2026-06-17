@@ -39,61 +39,21 @@ Download and install directly through [HACS (Home Assistant Community Store)](ht
 
 Every generated storm sensor dynamically populates the following metadata parameters:
 
-Attribute Name
-
-Description / Example Value
-
-`friendly_name`
-
-Full display name (e.g., *Hurricane Beryl*)
-
-`storm_name`
-
-Name assigned by NOAA (e.g., *BERYL* or *UNNAMED*)
-
-`classification`
-
-Meteorological status (e.g., *Hurricane* or *Tropical Storm*)
-
-`pressure`
-
-Minimum central pressure converted to inches of mercury (*inHg*)
-
-`intensity`
-
-Wind velocity parameter output tracking core tier brackets
-
-`max_winds`
-
-Sustained top wind velocity calculated in miles per hour (*MPH*)
-
-`heading`
-
-Absolute trajectory bearing vector angle (*0°–360°*)
-
-`heading_text`
-
-Broad cardinal direction mapping orientation (*WNW*, *North East*)
-
-`movement_speed`
-
-Ongoing forward speed of the storm center
-
-`distance`
-
-Calculated mileage distance relative to your Home Assistant zone location
-
-`latitude` / `longitude`
-
-Exact geographical coordinate floating values
-
-`forecast_discussion`
-
-Direct URL link string to the official NOAA text review feed
-
-`forecast_graphics`
-
-Direct URL link string to the updated target cone graphic image
+| Attribute Name | Description / Example Value |
+| :--- | :--- |
+| `friendly_name` | Full display name (e.g., *Hurricane Beryl*) | 
+| `storm_name` | Name assigned by NOAA (e.g., *BERYL* or *UNNAMED*) | 
+| `classification` | Meteorological status (e.g., *Hurricane* or *Tropical Storm*) | 
+| `pressure` | Minimum central pressure converted to inches of mercury (*inHg*) | 
+| `intensity` | Wind velocity parameter output tracking core tier brackets | 
+| `max_winds` | Sustained top wind velocity calculated in miles per hour (*MPH*) | 
+| `heading` | Absolute trajectory bearing vector angle (*0°–360°*) | 
+| `heading_text` | Broad cardinal direction mapping orientation (*WNW*, *North East*) | 
+| `movement_speed` | Ongoing forward speed of the storm center | 
+| `distance` | Calculated mileage distance relative to your Home Assistant zone location | 
+| `latitude` / `longitude` | Exact geographical coordinate floating values | 
+| `forecast_discussion` | Direct URL link string to the official NOAA text review feed | 
+| `forecast_graphics` | Direct URL link string to the updated target cone graphic image |
 
 * * *
 ### Example Widget
