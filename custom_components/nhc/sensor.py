@@ -139,7 +139,7 @@ class NHCChildTemplateSensor(SensorEntity):
         self._attr_icon = "mdi:weather-hurricane"
         self._state_template = state_template
         self._attribute_templates = attribute_templates
-        self._attr_native_value = "Unknown"
+        self._attr_native_value = "unavailable"
         self._attr_extra_state_attributes = {}
 
     async def async_added_to_hass(self) -> None:
