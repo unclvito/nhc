@@ -1,4 +1,4 @@
-### Home Assistant NHC Storm Tracker
+### Home Assistant NHC Storm Sensors
 
 A lightweight, high-performance Home Assistant custom integration that automatically tracks tropical system data from the National Hurricane Center (NOAA). It dynamically provisions a master tracking state alongside 10 dedicated, event-driven tracking sensors for both the Atlantic and Eastern Pacific basins—all without cluttering your system with complex YAML blocks.
 
@@ -18,16 +18,16 @@ A lightweight, high-performance Home Assistant custom integration that automatic
 
 1.  Open your Home Assistant instance and navigate to **HACS** > **Integrations**.
 2.  Click the three vertical dots in the top-right corner and select **Custom repositories**.
-3.  Paste the URL of this GitHub repository into the **Repository** box.
+3.  Paste https://github.com/unclvito/nhc into the **Repository** box.
 4.  Select **Integration** as the Category and click **Add**.
-5.  Locate the newly added **NHC Storm Tracker** card, click **Download**, and let the system copy the assets to your device.
+5.  Locate the newly added **NHC Storm Sensors** card, click **Download**, and let the system copy the assets to your device.
 
 ### Step 2: Reload and Activate via UI
 
 1.  Go to **Developer Tools** > **YAML** and select **Restart Home Assistant**.
 2.  Once the system finishes booting, navigate to **Settings** > **Devices & Services**.
 3.  Click the blue **Add Integration** button in the bottom-right corner.
-4.  Search for **NHC Storm Tracker**, click on it, and click **Submit**.
+4.  Search for **NHC Storm Sensors**, click on it, and click **Submit**.
 
 * * *
 
@@ -111,4 +111,4 @@ Use code with caution.
 
 ### License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU Public License v3.0. See `LICENSE` for more information.
