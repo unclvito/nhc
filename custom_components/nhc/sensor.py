@@ -34,9 +34,12 @@ async def async_setup_platform(
     current_dir = os.path.dirname(__file__)
     template_path = os.path.join(current_dir, "nhc.jinja")
 
-    try:
+    def _read_template() -> str:
         with open(template_path, "r", encoding="utf-8") as f:
-            shared_macros = f.read()
+            return f.read()
+
+    try:
+        shared_macros = await hass.async_add_executor_job(_read_template)
     except Exception as err:
         _LOGGER.error("Failed to load nhc.jinja file contents: %s", err)
         return
